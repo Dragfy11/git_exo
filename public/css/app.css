@@ -16033,3 +16033,34 @@ a.text-dark:hover, a.text-dark:focus {
 .features_item p {
   padding-bottom: 25px;
 }
+
+/*============== footer-area css ===============*/
+.footer-area {
+  background: #04091e;
+  padding: 100px;
+  width: 100%;
+  margin: 0 0;
+}
+
+.footer-bottom {
+  padding-top: 46px;
+}
+
+.footer-bottom .footer-text a {
+  color: #00c8e6;
+}
+
+.footer-bottom .footer-social {
+  text-align: right;
+}
+
+.footer-bottom .footer-social a {
+  font-size: 18px;
+  line-height: 30px;
+  color: #82848f;
+  transition: all 0.3s linear;
+}
+
+.footer-bottom .footer-social a:hover {
+  color: #00c8e6;
+}
