@@ -15954,3 +15954,40 @@ a.text-dark:hover, a.text-dark:focus {
   background: #00c8e6;
   color: #fff;
 }
+
+.btn_hover {
+  font-size: 14px;
+  line-height: 30px;
+  color: #222222;
+  font-weight: 500;
+  padding: 4px 35px;
+  display: inline-block;
+  border: 1px solid #eeeeee;
+  transition: all 0.3s linear;
+  text-transform: uppercase;
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+.btn_hover:hover {
+  background: #00c8e6;
+  color: #fff;
+}
+
+.about_area img {
+  max-width: 100%;
+}
+
+.about_content {
+  padding-right: 70px;
+}
+
+.about_content p {
+  padding: 15px 0px 25px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
