@@ -15,3 +15,20 @@
         color: #fff;
     }
 }
+.view_btn{
+    background: #fff;
+    &:hover{
+        border-color: $dark;
+        background: $dark;
+    }
+}
+
+.btn_hover_two{
+    background: $light_blue;
+    color: #fff;
+    border-color: $light_blue;
+    &:hover{
+        background: transparent;
+        color: $light_blue;
+    }
+}

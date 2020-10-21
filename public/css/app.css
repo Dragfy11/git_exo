@@ -15974,6 +15974,26 @@ a.text-dark:hover, a.text-dark:focus {
   color: #fff;
 }
 
+.view_btn {
+  background: #fff;
+}
+
+.view_btn:hover {
+  border-color: #222222;
+  background: #222222;
+}
+
+.btn_hover_two {
+  background: #00c8e6;
+  color: #fff;
+  border-color: #00c8e6;
+}
+
+.btn_hover_two:hover {
+  background: transparent;
+  color: #00c8e6;
+}
+
 .about_area img {
   max-width: 100%;
 }
@@ -15990,4 +16010,26 @@ a.text-dark:hover, a.text-dark:focus {
   .container {
     max-width: 1170px;
   }
+}
+
+.features_item {
+  padding: 73px 45px 80px 60px;
+  color: #fff;
+  background: #00c8e6;
+}
+
+.features_item + .features_item {
+  border-left: 1px solid #fff;
+}
+
+.features_item:nth-child(even) {
+  background: #04091e;
+}
+
+.features_item h3 {
+  margin-bottom: 20px;
+}
+
+.features_item p {
+  padding-bottom: 25px;
 }
